@@ -8,12 +8,12 @@
 	font-size: 26px;
 	line-height: 1.19;
 	text-decoration: none;
-	padding-top: 24px;
-	padding-bottom: 25px;
 }
 
 .header__logo {
 	margin-right: 93px;
+	padding-top: 24px;
+	padding-bottom: 25px;
 }
 
 .logo__color {
@@ -23,22 +23,12 @@
 
 //*-----Логотип в футері-----*//
 
-.logo-footer {
-	font-family: "Raleway", sans-serif;
-
-	font-weight: 700;
-	color: #000000;
-	font-size: 26px;
-	line-height: 1.19;
-	text-decoration: none;
-}
-
-.footer__logo-footer {
+.footer__logo {
 	display: block;
 	margin-bottom: 20px;
 }
 
-.logo-footer__color {
+.logo__color-footer {
 	color: #ffffff;
 }
 
