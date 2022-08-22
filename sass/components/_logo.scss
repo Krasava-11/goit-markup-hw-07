@@ -1,0 +1,45 @@
+//*-----Логотип в хедері-----*//
+
+.logo {
+	font-family: "Raleway", sans-serif;
+
+	font-weight: 700;
+	color: #000000;
+	font-size: 26px;
+	line-height: 1.19;
+	text-decoration: none;
+	padding-top: 24px;
+	padding-bottom: 25px;
+}
+
+.header__logo {
+	margin-right: 93px;
+}
+
+.logo__color {
+	color: var(--accent-color);
+}
+//*-----Логотип в хедері-----*//
+
+//*-----Логотип в футері-----*//
+
+.logo-footer {
+	font-family: "Raleway", sans-serif;
+
+	font-weight: 700;
+	color: #000000;
+	font-size: 26px;
+	line-height: 1.19;
+	text-decoration: none;
+}
+
+.footer__logo-footer {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.logo-footer__color {
+	color: #ffffff;
+}
+
+//*-----Логотип в футері-----*//
