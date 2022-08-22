@@ -49,7 +49,8 @@ img {
   list-style-type: none;
 }
 
-.visually-hidden {
+.benefits--hidden,
+.portfolio--hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -716,6 +717,9 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.footer .container {
+  display: flex;
+}
 
 .footer-contacts__item:not(:last-child) {
   margin-bottom: 9px;
@@ -748,10 +752,6 @@ img {
 .footer-contacts__tel:hover,
 .footer-contacts__tel:focus {
   color: var(--accent-color);
-}
-
-.footer .container {
-  display: flex;
 }
 
 .footer-form {
@@ -792,7 +792,7 @@ img {
   margin-right: 8px;
 }
 
-.projects {
+.projects-section {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
